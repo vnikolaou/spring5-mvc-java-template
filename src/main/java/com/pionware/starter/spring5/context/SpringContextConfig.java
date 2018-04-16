@@ -23,7 +23,7 @@ import com.pionware.starter.spring5.model.PropertiesAudition;
 import com.pionware.starter.spring5.model.SetDepartments;
 
 @Configuration
-@ComponentScan(basePackages = "com.pionware.starter.spring5")
+@ComponentScan(basePackages = "com.pionware.starter.spring5.model")
 public class SpringContextConfig {
 	
 	@Bean(name="empRec1")

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.ResourceBundleViewResolver;
 
 @Configuration
-@ComponentScan(basePackages="com.pionware.starter.spring5")
+@ComponentScan(basePackages="com.pionware.starter.spring5.controller")
 public class SpringDispatcherConfig extends WebMvcConfigurerAdapter{
 	
 
